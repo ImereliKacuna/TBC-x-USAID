@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #dbdbdb;
+}
+
+header {
+  padding: 22px 0;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+body {
+  background-color: #1a1e1f;
+}
+
+.button_links_tbc {
+  color: #ffffff;
+  line-height: 26px;
+  display: inline-block;
+  padding: 0 10px;
+  transition: color 0.3s;
+}
+
+.button_links_tbc:hover {
+  color: #00a3e0;
+}
+
+.fl {
+  text-align: center;
+  transition: all 0.5s ease;
+  list-style: none;
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.backgroundtop {
+  background-image: url("https://static.wixstatic.com/media/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg/v1/fill/w_1920,h_400,al_c,q_85,enc_auto/93e8a3_9fa23196ddf6427a9da574e2b31a13d2~mv2.jpg");
+  height: 352px;
+  background-size: cover;
+  background-position: center;
+}
+
+.parag1 {
+  font-family: "Noto Sans Georgian", sans-serif;
+  color: white;
+  vertical-align: baseline;
+  font-size: 36px;
+  line-height: 1.6em;
+}
+
+.parag {
+  font-family: "Noto Sans Georgian", sans-serif;
+  color: white;
+  vertical-align: baseline;
+  font-size: 36px;
+  line-height: 1.6em;
+}
+
+.parag_contain {
+  width: 980px;
+  padding: 137.375px 0;
+  margin: 0 auto;
+}
+
+.parag_second {
+  letter-spacing: normal;
+  font-size: 28px;
+  font-family: sans-serif;
+  color: white;
+  width: 1000px;
+  height: 300px;
+  line-height: 1.6em;
+}
+
+.parag_div_second {
+  padding: 1060px;
+  padding: 48px 32px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: rgb(43, 43, 43);
+  flex-direction: column;
+}
+
+.parag_div_third {
+  padding: 1060px;
+  padding: 0 32px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(22, 22, 22);
+}
+
+.h1_style {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.button_links_more {
+  font-family: sans-serif;
+  color: #00a3e0;
+  transition: color 0.3s;
+}
+
+/* text marcxniv gvinda */
+
+.button_links_more:hover {
+  color: grey;
+}
+
+/* devigale karoche ra, mere shevcvli bevr ragacas tore exa iseti maxinjobaa guli amereva.*/
